@@ -1,0 +1,101 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 100%;
+    max-width: 380px;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+}
+
+body {
+    background-color: #0382F6
+}
+body *{
+    font-family: 'Krona One', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+h1 {
+    /* border: 1px solid red; */
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+#smile {
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin-left: 10px;
+}
+
+ul {
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    margin-top: 10px;
+}
+ul li input {
+    color: white;
+    /* border: 1px solid red; */
+    background:#1D5871;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 7px;
+    width: fit-content;
+    transition: background 0.15s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#button:hover{
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+#forgot{
+    width: fit-content;
+    font-size: 14px;
+    display: flex;
+    text-decoration: none;
+    margin-left: 58.974px;
+    color: black;
+    margin-right: 58.974px;
+}
+#forgot:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#login-icons a {
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: fit-content;
+}
+#login-icons a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    }
